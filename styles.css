@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide');
-
 body {
     margin: 0;
     background: pink;
@@ -48,4 +46,9 @@ nav .navigation ul li a{
 nav .navigation ul li a:hover{
     color: cadetblue;
     transition: 0.3s ease;
+}
+
+/* Home */
+#home {
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgb(5,4,46,0.7)), url("images/CAUFoto.jpg");
 }
