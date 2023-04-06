@@ -12,7 +12,7 @@ body {
 h1 { 
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgb(241, 15, 166);
+    color: #049036;
 }
 span {
     font-size: .9rem;
@@ -56,29 +56,24 @@ nav .navigation {
 #menu-close {
     display: none;
 }
-
 nav .navigation ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 nav .navigation ul li {
     list-style: none;
     margin-left: 30px;
 }
-
 nav .navigation ul li a {
     text-decoration: none;
-    color:cornflowerblue;
+    color:#ab91c0;
     font-size: 16px;
     font-weight: 500;
 }
 nav .navigation ul li a.active,
-
-
 nav .navigation ul li a:hover {
-    color: rgb(26, 57, 236);
+    color: #562381;
     transition: 0.3s ease;
 }
 
@@ -101,17 +96,20 @@ nav .navigation ul li a:hover {
     color: #ffff;
     font-size: 2.2rem;
     letter-spacing: 1px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 #home p {
-    width: 50%;
-    color: rgb(231, 54, 128);
-    font-size: 0.9rem;
-    line-height: 25px;
+    width: 70%;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 20px;
 }
 
 #home .btn {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 #home a {
@@ -125,25 +123,25 @@ nav .navigation ul li a:hover {
 
 #home a.blue {
     color: #ffff;
-    background: rgb(21,21,100);
+    background: #049036;
     transition: 0.3s ease;
 
 }
 
 #home a.blue:hover {
-    color: rgb(21,21,100);
+    color: #5b8dd6;
     background: #ffff;
 }
 
 
 #home a.yellow {
     color: #ffff;
-    background: rgb(255, 201, 52);
+    background: #d65b8d;
     transition: 0.3s ease;
 }
 
 #home a.yellow:hover {
-    color: rgb(21,21,100);
+    color: #5b8dd6;
     background: #ffff;
 }
 
@@ -154,10 +152,6 @@ nav .navigation ul li a:hover {
 }
 
 #features .fea-base {
-    /*display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
     gap: 1rem;
@@ -165,20 +159,21 @@ nav .navigation ul li a:hover {
 }
 
 #features .fea-box {
-    background-color: aliceblue;
-    text-align: start;
+    background-color: #ccf0f96e;
+    text-align: center;
+    padding: 30px;
 }
 
 #features .fea-box i {
     font-size: 2.3rem;
-    color: rgb(241, 15, 166);
+    color: #00aee3;
 }
 
-#features .fea-box.h3 {
+#features .fea-base .fea-box.h3 {
     font-size: 1.2rem;
     font-weight: 600;
     color:rgb(245, 18, 162);
-    padding: 13px 0 7px 0;
+    padding-bottom: 13px;
 }
 #features .fea-box.p {
     font-size: 1rem;
@@ -187,6 +182,50 @@ nav .navigation ul li a:hover {
 }
 
 /* tutors */
+
+#course {
+    padding: 8vw 8vw 4vw 8vw;
+    text-align: center;
+}
+
+#course .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 1rem;
+    margin-top: 50px;
+}
+
+#course .courses {
+    text-align: start;
+    background-color:#fce6e8;
+    height: 100%;
+    border-radius: 40%;
+    text-align: center;
+}
+
+#course .courses img {
+    width: 80%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    border-radius: 100px;
+
+
+}
+
+#course .courses .details {
+    padding: 15px 15px 0 15px;
+}
+
+#course .courses .details i{
+    color: #56570c;
+    font-size: 0.9rem;
+}
+#course .courses .details span {
+    color: grey;
+}
+
 #tutors {
     padding: 8vw 8vw 4vw 8vw;
     text-align: center;
@@ -200,7 +239,7 @@ nav .navigation ul li a:hover {
 }
 
 #tutors .tutor-box .profile {
-    background: #f0f0a7;
+    background: #c2d5f152;
     padding: 30px 10px;
 }
 
@@ -239,14 +278,14 @@ footer .footer-col{
 }
 
 footer h3 {
-    color: rgb(243, 172, 234);
+    color: #cdbdda;
     font-weight: 600;
     padding: 10px;
 }
 
 footer li{
     list-style: none;
-    color:rgb(241, 207, 207);
+    color:#ab91c0;;
     padding: 10px 0;
     font-size: 15px;
     cursor: pointer;
@@ -254,7 +293,7 @@ footer li{
 }
 
 footer li:hover{
-    color:rgb(241, 15, 166);
+    color:#562381;
 }
 
 footer .copyright {
@@ -276,7 +315,7 @@ footer .copyright .pro-links {
 }
 
 footer .copyright .pro-links i {
-    background-color: rgb(194, 144, 187);
+    background-color: #ab91c0;
     color: #ffff;
 }
 
@@ -293,7 +332,7 @@ footer .copyright .pro-links i:hover{
 #vorstellung-home {
     background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,45,0.7)), url("images/CAUFoto.jpg");
     width: 100%;
-    height: 30vh;
+    height: 25vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -308,7 +347,7 @@ footer .copyright .pro-links i:hover{
     color: #ffff;
     font-size: 2.2rem;
     letter-spacing: 1px;
-
+    padding-top: 100px;
 }
 
 
@@ -343,6 +382,29 @@ footer .copyright .pro-links i:hover{
 }
 
 /* aufgaben seiten  */
+#aufg1-home {
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,45,0.7)), url("images/CAUFoto.jpg");
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#aufg1-home h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    padding-top: 100px;
+}
+
+
+
 #aufgaben-container {
     display: flex;
     align-items: flex-start;
@@ -353,11 +415,11 @@ footer .copyright .pro-links i:hover{
 
 
 #aufgaben-container .aufgaben {
-    width: 60%;
+    width: 30%;
 }
 
 #aufgaben-container .aufgaben img {
-    width: 100%;
+    height:300px;
     border-radius: 19px;
 }
 #aufgaben-container .aufgaben .post {
