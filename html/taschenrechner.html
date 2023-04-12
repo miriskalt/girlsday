@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,13 @@
     <title>Girls Day CAU</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="../style.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous">
+    </script>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 
 </head>
+
 <body>
     <!--  Navigation -->
     <nav>
@@ -21,7 +26,7 @@
                 <li><a class="active" href="aufg1.html">Aufgabenrunde 1</a></li>
                 <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
                 <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
-                <li><a  href="vorstellungen.html">Vorstellungsvideos</a></li>
+                <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
 
             </ul>
             <i id="menu-btn" class="fas fa-bars"></i>
@@ -32,16 +37,29 @@
 
 
     <!-- Home  -->
-    
+    <!-- Home  -->
+    <section id="aufg1-home">
+        <h2> Programmiere einen Taschenrechner</h2>
+    </section>
     <section id="aufgaben-container">
         <div class="aufgaben blogpost">
             <div class="post">
                 <img src="../images/taschenrechner.jpg" alt="Taschenrechner">
-                <h3>Wie bringe ich meinem Computer Pfannkuchen backen bei?</h3>
-                <p>Text Text Text aus Folien</p>
-                <p>Text Text Text aus Folien</p>
-                <p>Text Text Text aus Folien</p>
-                <p>Text Text Text aus Folien</p>
+                <h3>Programmiere dir einen Taschenrechner</h3>
+                <p>Ein Taschenrechner funktioniert so, dass du deinem Programm sagst, welche Berechnungsart du
+                    durchführen möchtest und die zu verwendenden Zahlen eingibst. Der Computer führt dann den
+                    von dir zuvor programmierten Algorithmus auf die eingegeben Zahlen aus und gibt dir das Ergebnis
+                    zurück.
+                </p>
+                <p>Für deinen ersten Taschenrechner schreibe Funktionen für das Summieren ('+'), das Subtrahieren ('-'),
+                    das Dividieren ('/'), das Multiplizieren ('*').</p>
+                <p>Wie du eine Funktion mit Eingabeparameter machst, haben wir bereits hier kennengelernt.</p>
+                <p>Für das Summieren kann deine Funktion wie folgt aussehen:</p>
+                <py-script>
+                    def summieren(a,b):
+                        Summe = a + b
+                        return Summe
+                </py-script>
                 <p>Text Text Text aus Folien</p>
                 <p>Text Text Text aus Folien</p>
                 <br><br>
@@ -49,10 +67,10 @@
                 <a href="#"> Zum nächsten Thema</a>
             </div>
 
-        </section>
-    
-    
-    
+    </section>
+
+
+
     <footer>
         <div class="footer-col">
             <h3>Jetzt bist du dran</h3>
@@ -66,28 +84,24 @@
             <li>Homepage der Arbeitsgruppe</li>
             <li>Vorstellung des Teams der Arbeitsgruppe</li>
             <li>Impressum</li>
-            
+
         </div>
         <div class="copyright">
             <p>Copyright ©2023 All rights reserved | This website is made by ISDM CAU Kiel </p>
             <div class="pro-links">
-                <i class="fas fa-link"></i>    
+                <i class="fas fa-link"></i>
             </div>
-            
+
         </div>
     </footer>
     <script>
-        $('#menu-close').click(function(){
+        $('#menu-close').click(function () {
             $('nav .navigation ul').removeClass('active');
         });
-        $('#menu-btn').click(function(){
+        $('#menu-btn').click(function () {
             $('nav .navigation ul').addClass('active');
         });
     </script>
 </body>
+
 </html>
-
-
-
-
-
