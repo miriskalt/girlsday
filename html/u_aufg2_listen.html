@@ -21,8 +21,8 @@
             <ul>
                 <i id="menu-close" class="fas fa-times"></i>
                 <li><a href="../index.html">Wilkommen</a></li>
-                <li><a class="active" href="aufg1.html">Aufgabenrunde 1</a></li>
-                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
                 <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
                 <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
 
@@ -34,50 +34,63 @@
     </nav>
 
 
-
     <!-- Banner  -->
     <section id="aufg1-home">
-        <h2>Funktionen in Python</h2>
+        <h2>Listen in Python</h2>
     </section>
 
     <!-- Home  -->
+
     <section id="aufgaben-container">
         <div class="aufgaben blogpost">
             <div class="post_page">
-                <img src="../images/onlinepython.webp" alt="online-python">
-                <h3>Was sind Funktionen?</h3>
+                <img src="../images/if.jpg" alt="Schienengleise">
+                <h3>Was sind Listen in Python?</h3>
                 <p>
-                    In Python werden Funktionen benutzt, um häufig genutzte Programmstücke zusammen zu fassen, sie sind
-                    also eigentlich nur wieder “Mini-Programme”.
+                    Wir haben bereits <a class="link" href="u_aufg1_variablen.html">Variablen</a> kennengelernt. Wenn
+                    wir aber nicht nut eine Zahl abspeichern wollen, sondern mehrer, weil diese Zusammengehören, dann
+                    nutzen wir Listen.
+                </p>
+                <p>
+                    Listen gelten in Python als eigener Datentyp (also eine neue Art Zettel) und werden mit eckigen
+                    Klammern geschrieben:
+                <ul>liste1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] ist eine Liste mit den Zahlen von 1 bis 10</ul>
+                <ul>liste2 = [“Brot”, “Käse”, “Salat”, “Tomate”, “Ketchup”] ist eine Liste mit Strings für Sandwich
+                    Zutaten</ul>
+                </p>
+                </p><!--TODO Bild generieren-->
+
+                <img src="../images/variablenpython.png" alt="formattedstringsBeispiel">
+
+                <p>
+                    Eine Liste kann mehrere Zahlen, verschiedene Wörter oder auch eine Mischung von beidem speichern.
                 </p>
 
-                <ul>Eine Funktion beginnt immer mit dem Signalwort <b>def</b></ul>
-                <ul>Dann kommt der Name der Funktion, um sie später wieder ansprechen zu können</ul>
-                <ul>In die zwei runden Klammern direkt hinter dem Name kommen dann die Variablen, welche in der Funktion
-                    verarbeitet werden soll, der Input</ul>
-                <ul>Nach einem Doppelpunkt (:) kommen die Verarbeitungsschritte, dabei werden alle Befehle, welche zu
-                    der Funktion gehören mit 4 Leerzeichen eingerückt. Dabei ist Python sehr genau, dass es auch ja vier
-                    Leerzeichen sind.</ul>
-                <ul>Zuletzt soll die Funktion das Ergebnis (den Output) “zurück”geben, dabei steht der gewünschte Output
-                    hinter dem Signalwort <b>return</b></ul>
-
-
                 <p>
-                    Hier ist ein Beispiel einer Funktion, welche den Namen <i>plus_rechnen</i> hat und zwei Zahlen als
-                    Input nimmt: <i>zahl1</i> und<i>zahl2</i>.
-                    Innerhalb der Funktion <!--TODO-->
+                    In einer Liste kann man einzelne Elemente “ansprechen”, indem man sie mit ihrer Position in der
+                    Liste
+                    aufruft. WICHTIG: Informatiker fangen immer bei 0 an zu zählen, das erste Element hat also die
+                    Position 0!
                 </p>
 
-                <img src="../images/funktionen.png" alt="Funktionen">
+                </p><!--TODO Bild generieren-->
+
+                <img src="../images/variablenpython.png" alt="formattedstringsBeispiel">
+
                 <p>
-                    Beim Schreiben von Funktionen auf Online-Python gibt es einige hilfreiche Tipps, denn wenn du das
-                    Singalwort richtig schreibst, Klammern nicht vergisst und die erste Zeile mit einem Doppelpunkt
-                    beendest, werden die nächsten Zeilen automatisch korrekt eingerückt. Das erstpaar viel Zeit und
-                    Nerven, da du somit immer direkt weist, du hast das Anlegen der Funktion richtig gemacht. Das
-                    erkennst du auch daran, dass Signalwörter (<i>def</i>, <i>print</i>, <i>return</i>) immer in besonderen Farben erscheinen, ohne dass du das
-                    ausgewählt hast.
+                    Der Befehl <b>range</b> gibt euch die Möglichkeit schnell und einfach Zahlen-Listen zu erstellen,
+                    anstatt
+                    die Zahlen von 0 bis 100 hier aus zu schreiben, reicht dieser Befehl und man kann danach einzelne
+                    Zahlen mit der Eckigen-Klammer-Schreibweise ansprechen.
                 </p>
-                <a href="u_aufg1_funktionen.html"> Schreibe deine ersten Funktionen</a>
+                </p><!--TODO Bild generieren-->
+
+                <img src="../images/variablenpython.png" alt="formattedstringsBeispiel">
+
+
+                <p> Jetzt, wo du Listen kennst, lerne als nächstes, wie du diese in For-Schleifen einsetzten kannst.</p>
+                <a href="u_aufg2_for.html">Weiter zu For-Schleifen</a>
+
             </div>
 
     </section>

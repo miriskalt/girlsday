@@ -21,8 +21,8 @@
             <ul>
                 <i id="menu-close" class="fas fa-times"></i>
                 <li><a href="../index.html">Wilkommen</a></li>
-                <li><a class="active" href="aufg1.html">Aufgabenrunde 1</a></li>
-                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active" href="aufg2.html">Aufgabenrunde 2</a></li>
                 <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
                 <li><a href="vorstellungen.html">Vorstellungsvideos</a></li>
 
@@ -34,50 +34,48 @@
     </nav>
 
 
-
     <!-- Banner  -->
     <section id="aufg1-home">
-        <h2>Funktionen in Python</h2>
+        <h2>Zufalls Bibliothek in Python</h2>
     </section>
 
     <!-- Home  -->
+
     <section id="aufgaben-container">
         <div class="aufgaben blogpost">
             <div class="post_page">
-                <img src="../images/onlinepython.webp" alt="online-python">
-                <h3>Was sind Funktionen?</h3>
+                <img src="../images/for.jpg" alt="Kreisverkehr">
+                <h3>Gibt es Zufall in Python?</h3>
                 <p>
-                    In Python werden Funktionen benutzt, um häufig genutzte Programmstücke zusammen zu fassen, sie sind
-                    also eigentlich nur wieder “Mini-Programme”.
+                    Wir haben bereits gelernt, dass Computer sich sehr streng an Regeln halten und nicht selber denken
+                    können. Und genau aus dem Grund ist es sehr schwer von dem Computer zu verlangen, dass er sich z.B.
+                    eine zufällige Zahl ausdenkt. Damit er eine zumindest für uns zufällige Zahl aussucht, benötigt es
+                    mathematisch sehr komplexe Algorithmen. Zu unserem Glück, haben sehr schlaue Frauen und Männer schon
+                    solchen Code geschrieben, welchen wir einfach nutzen können. Dazu laden wir uns die fertig
+                    geschrieben Funktionen in unser Skript und können sie einfach nutzen. Das ist einer der vielen
+                    Vorteile an der Programmiersprache Python: Es gibt eine große Gemeinschaft, welche Code gegenseitig
+                    zur Verfügung stellt.
                 </p>
 
-                <ul>Eine Funktion beginnt immer mit dem Signalwort <b>def</b></ul>
-                <ul>Dann kommt der Name der Funktion, um sie später wieder ansprechen zu können</ul>
-                <ul>In die zwei runden Klammern direkt hinter dem Name kommen dann die Variablen, welche in der Funktion
-                    verarbeitet werden soll, der Input</ul>
-                <ul>Nach einem Doppelpunkt (:) kommen die Verarbeitungsschritte, dabei werden alle Befehle, welche zu
-                    der Funktion gehören mit 4 Leerzeichen eingerückt. Dabei ist Python sehr genau, dass es auch ja vier
-                    Leerzeichen sind.</ul>
-                <ul>Zuletzt soll die Funktion das Ergebnis (den Output) “zurück”geben, dabei steht der gewünschte Output
-                    hinter dem Signalwort <b>return</b></ul>
+                <p>
+                    Mittels Bibliotheken, (engl. Libraries) können fertige Funktionen in unser eigenen Skript geladen
+                    werden. Der Befehl dazu lautet: <b>import LibrarieName</b>. Für das Zahlen Raten Spiel laden wir uns
+                    die Bibliothek für Zufall in das Skipt. Sie heißt <b>random</b>, was das englische Wort für Zufall
+                    ist.
+                </p>
+
+
+                <!--TODO Bild generieren-->
+                <img src="placeholder" alt="zufall_import099">
 
 
                 <p>
-                    Hier ist ein Beispiel einer Funktion, welche den Namen <i>plus_rechnen</i> hat und zwei Zahlen als
-                    Input nimmt: <i>zahl1</i> und<i>zahl2</i>.
-                    Innerhalb der Funktion <!--TODO-->
+                    Jetzt, wo du Bibliotheken und Zufall in Python kennst, kannst du mit <b>For</b>-Schleifen selber ein
+                    Zahlen Raten Spiel programmieren.
                 </p>
 
-                <img src="../images/funktionen.png" alt="Funktionen">
-                <p>
-                    Beim Schreiben von Funktionen auf Online-Python gibt es einige hilfreiche Tipps, denn wenn du das
-                    Singalwort richtig schreibst, Klammern nicht vergisst und die erste Zeile mit einem Doppelpunkt
-                    beendest, werden die nächsten Zeilen automatisch korrekt eingerückt. Das erstpaar viel Zeit und
-                    Nerven, da du somit immer direkt weist, du hast das Anlegen der Funktion richtig gemacht. Das
-                    erkennst du auch daran, dass Signalwörter (<i>def</i>, <i>print</i>, <i>return</i>) immer in besonderen Farben erscheinen, ohne dass du das
-                    ausgewählt hast.
-                </p>
-                <a href="u_aufg1_funktionen.html"> Schreibe deine ersten Funktionen</a>
+                <a href="u_aufg2_for.html">Weiter zu Zufall in Python</a>
+
             </div>
 
     </section>
