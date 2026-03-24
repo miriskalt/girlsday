@@ -1,6 +1,6 @@
 # girlsday
 
-Website is available at https://miriskalt.github.io/girlsday_25/
+Website is available at https://miriskalt.github.io/girlsday/
 
 
 ## Set up for girls day CAU activities
